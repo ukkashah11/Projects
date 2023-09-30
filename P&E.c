@@ -23,19 +23,6 @@ void showboard(int r,int c)
         }
 	}
 }
-bool checkwin(int r, int c, char repeat[r][c]){
-	bool check;
-	int i=0, j=0, checks = 0;
-	while(j<c){
-		while(i<r){
-			if(repeat[i][j]=='P'){
-				checks++;
-			}f
-		}
-		
-	}
-	
-}
 void update(int r, int c, char repeat[][c])
 {
     for(int i = 0;i<r;i++)
